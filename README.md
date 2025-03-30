@@ -1,7 +1,28 @@
-## Houses Prices Prediction Project
-This is the Machine Learning Project, there are two models that are trained on the given **Dataset**. The dataset is huge large and in .csv format. The datasets have couples of attributes. 
-Firstly the dataset is pre-processed, remove duplicate values, and cleaned. 
-Both Classification and Regression gives better Accuracy on training and testing. 
+# ML House Price Prediction
 
-### Future Enhancements
-It can be integrate in Mobile or Web Applications where it can take input data according to dataset requirement and then train that and show the results. I am working on this Feature and soon integrate it in form of Application. So users can use this real- world.
+This project trains **Classification** and **Regression** models on a given dataset to predict house prices. The dataset is in `.csv` format, preprocessed to remove duplicates and clean data before training.
+
+## Run with Docker
+
+### Prerequisites
+- Install [Docker](https://docs.docker.com/get-docker/)
+
+### Steps
+```sh
+# Clone the repository
+git clone https://github.com/SalmanDeveloperz/ML_House_Prediction.git
+cd ML_House_Prediction
+
+# Build the Docker image
+docker build -t ml-house-prediction .
+
+# Run the container
+docker run --rm ml-house-prediction
+```
+
+## Future Enhancements
+- Integrate into **web & mobile apps** for real-time predictions.
+- Deploy models for real-world use.
+
+Stay tuned for updates :)
+
